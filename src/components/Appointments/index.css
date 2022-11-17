@@ -1,0 +1,84 @@
+.upper-section {
+  display: flex;
+  justify-content: space-between;
+}
+.bg-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: linear-gradient(#fbc7d4, #9796f0);
+}
+.card-container {
+  background-color: white;
+  min-width: 90%;
+  padding: 40px;
+  border-radius: 10px;
+}
+hr {
+  width: 100%;
+  border-top: 2px #171f46;
+}
+input {
+  width: 200px;
+  padding: 3px;
+  font-size: 10px;
+  font-family: Roboto;
+  margin: 5px 0px 5px 0px;
+  color: black;
+  outline: none;
+}
+label {
+  color: #b5b7c4;
+  font-size: 10px;
+  font-family: Roboto;
+  margin: 5px 0px 5px 0px;
+}
+.add-appoint-h1 {
+  color: #171f46;
+  font-size: 22px;
+  font-family: Roboto;
+}
+.main-pic {
+  width: 50%;
+  height: 50%;
+}
+.add-btn {
+  color: white;
+  background-color: #8b5cf6;
+  border-style: none;
+  border-radius: 5px;
+  margin-top: 15px;
+  padding: 5px 10px 5px 10px;
+}
+.starred-list-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.starred-btn {
+  color: #8b5cf6;
+  background-color: transparent;
+  border-style: solid;
+  border-color: #8b5cf6;
+  border-radius: 20px;
+  padding: 5px 10px 5px 10px;
+  width: 100px;
+}
+.appointments-h1 {
+  font-size: 16px;
+  color: #171f46;
+  font-family: Roboto;
+}
+
+.ul-list-container {
+  display: flex;
+  list-style: none;
+  padding: 0px;
+}
+
+@media screen and (max-width: 576px) {
+  .main-pic {
+    display: none;
+  }
+}
